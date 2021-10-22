@@ -1,0 +1,35 @@
+/* {"Previous"}
+{"Next"}
+pageCount ={10}
+onPageChange = {changePage}
+ ={""}
+={"previousBttn"}
+ {"nextBttn"}
+ {"paginationDisabled"}
+{"paginationActive"} */
+
+.paginationBttns{
+    width: 80%;
+    height: 40px;
+    list-style:none;
+    display: flex;
+    justify-content: center;
+}
+.paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2e2bff;
+    color: #2e2bff;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    color: white;
+    background-color: #2e2bff;
+}
+
+.paginationActive a {
+    color: white;
+    background-color: #2e2bff;
+}
