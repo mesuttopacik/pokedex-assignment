@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c69976e0-450f-4e1b-8319-3acae7e8500b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/pokedex-assignment",
+    "appService.deploySubpath": "."
+}
