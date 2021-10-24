@@ -63,6 +63,7 @@ export default function Pokedex() {
       <Paper style={{ padding: "52px 10px 0px 10px" }}>
         <Box style={{ textAlign: "right" }}>
           <Switch
+            data-testid = "turn_the_switch"
             checked={darkMode}
             onChange={() => setdarkMode(!darkMode)}
           ></Switch>
